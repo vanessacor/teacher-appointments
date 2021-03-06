@@ -26,7 +26,7 @@ class Database
         $host = "localhost";
         $user = "root";
         $pass = "root";
-        $database = "teacher_schedule";
+        $database = "teacher_appointments";
         $charset = "utf-8";
         $options = [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC];
         $pdo = new pdo("mysql:host={$host};dbname={$database};charset{$charset}", $user, $pass, $options);

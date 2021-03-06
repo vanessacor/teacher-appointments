@@ -16,7 +16,7 @@
     <header class="container">
         
         <img src="https://i.ibb.co/0Zfj70f/logo.jpg" width="30" height="30" id="logo" class="d-inline-block align-top" alt="logo perro feo" loading="lazy">
-        <h1>Consultorio Echo</h1>
+        <h1>Teacher Appointments</h1>
     </header>
     
 </body>

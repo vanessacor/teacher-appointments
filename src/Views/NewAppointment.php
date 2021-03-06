@@ -2,7 +2,7 @@
 
 <body>
     <header class="container">
-        <h1>Nueva Consulta</h1>
+        <h1>New Appointment</h1>
         <a href="index.php">
             <button type="button" id="back-button" class="btn btn-primary" aria="volver a pagina principal">
                 <svg width="3em" height="3em" viewBox="0 0 16 16" id="flecha" class="bi bi-arrow-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -14,21 +14,21 @@
     <main class="container" id="main">
         <form action='?action=save' method="post">
             <div class="form-group">
-                <label for="name">Nombre</label>
-                <input name="name" type="text" class="form-control" placeholder="Introduce tu Nombre" aria-label="Name" aria-describedby="basic-addon1">
+                <label for="name">Student</label>
+                <input name="student" type="text" class="form-control" placeholder="Insert Student Name" aria-label="Student" aria-describedby="basic-addon1">
             </div>
             <div class="form-group">
-                <label name="tema">Tema</label>
-                <input type="text" name="tema" class="form-control" placeholder="Tema de Consulta" aria-label="tema de consulta" aria-describedby="basic-addon1">
+                <label name="tema">Subject</label>
+                <input type="text" name="subject" class="form-control" placeholder="Appointment subject" aria-label="Appointment Subject" aria-describedby="basic-addon1">
 
             </div>
             <?php
-            echo "<p id=fecha> Fecha de creacion: " . date("Y/m/d") . "  " . date("h:i") . "</p>";
+            echo "<p id=date> Date of Schedule: " . date("Y/m/d") . "  " . date("h:i") . "</p>";
 
             ?>
             <div class="form-group" id="buttons">
-                <button type="reset" value="reset" class="btn btn-primary">Borrar Campos</button>
-                <button type="submit" value="savebd" class="btn btn-primary">Enviar</button>
+                <button type="reset" value="reset" class="btn btn-primary">Reset</button>
+                <button type="submit" value="savebd" class="btn btn-primary">Send</button>
             </div>
         </form>
     </main>

@@ -7,7 +7,7 @@ use App\Repositories\ConsultaRepository;
 
 
 
-class ConsultaApiController 
+class AppointmentApiController 
 {
     private IRepository $repository;
 
@@ -22,7 +22,7 @@ class ConsultaApiController
         switch ($requestMethod) {
             case 'GET':
                 if ($appointmentId) {
-                    $response = $this->getConsulta($appointmentId);
+                    $response = $this->getAppointment($appointmentId);
                 } else {
                     $response = $this->index();
                 };
@@ -55,7 +55,7 @@ class ConsultaApiController
         return ["body" => $apppoitments, "code" => 200];
     }
 
-    public function getConsulta($id)
+    public function getAppointment($id)
     {
         $appointment = $this->repository->findById($id);
 
