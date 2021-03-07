@@ -1,2 +1,3 @@
 *.log
 vendor
+.phpunit.result.cache
