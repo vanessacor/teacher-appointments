@@ -4,7 +4,7 @@ A very simple application to manage teacher appointment with studens
 
 ## Description
 
-This is a project base in one of my first project at the [FactoriaF5]() bootcamp.
+This is a project base in one of my first project at the [FactoriaF5](https://github.com/FactoriaF5) bootcamp.
 The [original project]() my team was asked to build a php vanilla application with the following requirements:
 - CRUD (Create, Read, Update, Delete) application
 - Object Oriented Programming following the MVC (Model, View, Controller) pattern.
@@ -14,8 +14,7 @@ At the time and because we were learning about clean code namely the SOLID princ
 Now I want to take this project and refactor it in order to refresh my php vanilla skills.
 
 ### My own requirements
-- test coverage before refactor it
-- refactor it apllying the clean code principles.
+- test coverage before refactoring
 
 
 ## Technologies
